@@ -1,0 +1,13 @@
+{
+    "name": "Remove Text",
+    "description": "Remove the text from the page, useful for testing ui design.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_icon": "logo.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["activeTab", "scripting"]
+}
